@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Responsive Redesign</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css" /> 
+  </head>
+
+  <body>
+    <div id="header">
+      <h1>Responsive Redesign</h1>
+      <p><i>Redesigning a local Greek Orthodox church website into a beautiful responsive website!</i></p>
+    </div>
+
+    
+    <h2>Identify Usability Problems:</h2>
+    <div id="contents">
+        <p>
+            The images below show the home page of the Anunciation Greek Orthodox Church in Cranston, RI. At first glance, the main page
+            does not seem to contain many problems, but as follow along this site, you will uncover some design flaws. We will 
+            go over those problems and offer up a potential redesign of the website!
+         </p>
+    </div> 
+    <div class="screenshot-container">
+        <img class="screenshot-item" src="./pic1.png" alt="main page">
+            <img class="screenshot-item" src="./pic2.png" alt="scrolled down part of main page">
+    </div>
+    <div id="caption">
+        <p>
+            <b>Click the button below to explore the site yourself!</b>
+          </p>  
+    </div>
+    <div id="button1">
+        <button class="button button1" data-href="https://www.annunciationri.org/" onclick="window.open(this.getAttribute('data-href')); return false;">
+            Click Me!</button>
+    </div>
+<div id="keyProblems">
+    <p>
+        <b>Now, hover over the icons below to uncover usability problems such as the learnability, memorability, and accesibility of the website!</b>
+      </p>
+</div>
+<div id="flipCont">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <h1>Learnability</h1>
+        <p>How easily can new users learn to use the website?</p>
+      </div>
+      <div class="flip-card-back">
+        <ol>    
+            <li>There is no clear sequence for the user to follow on the home page.</li>
+            <li>Many images are linked to another page, but this is not made very clear to the user.</li>
+            <li>Some words and phrases used are unclear as to what they mean and there is no indication for their definition
+                or significane.
+            </li>
+
+        </ol> 
+      </div>
+    </div>
+  </div>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <h1>Memorability</h1>
+        <p>Do users remember how to use the website when coming back to it?</p>
+      </div>
+      <div class="flip-card-back">
+        <ol>
+            <li>Someone looking for schedule of services would have difficulty remembering how to find what days services are as that is not made clear 
+                on the home page.</li>
+                <li>The menu bar has a lot of items on it, so users can forget what each one is meant for.
+                </li>
+
+        </ol>
+      </div>
+    </div>
+  </div>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <h1>Accesibility</h1>
+        <p>Is the website accessible to users with different needs (i.e. visually impairment)?</p>
+      </div>
+      <div class="flip-card-back">
+        <ol>
+            <li>Lots of images and linked images are missing alt tags.</li>
+            <li>Very low contrast between the text and background colors.</li>
+            <li>Several empty headings are found throughout the website.</li>
+
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <h3>Visual Redesign:</h3>
+    <div id="p2">
+        <p>
+            Now that we have identified some design problems in this website, let's use all that information to guide us as we 
+            redesign the website!
+         </p>
+         <p>
+            Using Balsamiq, we can make some low-fidelity prototypes. Below you will see a <b>low-fidelity prototype</b> for our redesign 
+            on a mobile device, tablet, and a desktop.
+         </p>
+    </div> 
+    <div class="wf-container">
+        <img class="wf-item" src="./mobilewf.png" alt="mobile wireframe">
+        <img class="wf-item" src="./tabletwf.png" alt="tablet wireframe">
+        <img class="wf-item" src="./desktopwf.png" alt="desktop wireframe">
+    </div>
+    <div id="p2">
+        <p>
+            These low-fidelity prototypes effectively solve many of the problems that users may encounter. One notable issue was a lengthy amount of 
+            menu tabs which can easily confuse a user trying to navigate the page efficiently. I found that many of that information can be transferred 
+            onto the home page to make better use of space while still maintaining a legible interface. Additionally, users can follow a more clear sequence
+            on the page. Essentially, instead of all the information being cluttered, it is now simplified to blocks of information with clear divisions. 
+         </p>
+         <p>
+            Before we begin making high-fidelity prototypes, let's make a <b>visual design style guide</b> so that our design is consistent across the board.
+            This can be done using Figma!         
+        </p>
+    </div> 
+    <div class="style-container">
+        <img class="style-item" src="./cp.png" alt="color palette">
+        <img class="style-item" src="./tp.png" alt="typography">
+        <img class="style-item" src="./buttons.png" alt="desktop wireframe">
+    </div>
+
+    <div id="p2">
+        <p>
+            Upon looking at this visual design guide, you might notice that the colors selected are very different than those in the original website.
+            This is done on purpose because I believe a more clear and modern color scheme will help with the overall look and feel of the site. On the 
+            original site, there was no clear color palette so this will definitely make the site more visually pleasing. Blue can be a very friendly and welcoming
+            color which will help this site serve its purpose to engage with new users and get more people involved with them.
+         </p>
+
+         <p>
+            Let's now use our low-fidelity prototypes and visual design style guide to create some <b>high-fidelity prototypes</b> for mobile, tablet, and desktop. 
+            
+         </p>
+    </div> 
+
+    <div class="hp-container">
+
+        <img class="hp-item" src="./mobilehp.png" alt="mobile hi fi prototype">
+        <img class="hp-item" src="./tablethp.png" alt="tablet hi fi prototype">
+        <img class="hp-item" src="./desktophp.png" alt="desktop hi fi prototype">
+    </div>
+
+    <div id="p2">
+        <p>
+            Here we can see that the color palettes, typography, and buttons from the style guide have been used effectively here to create
+            the high-fidelity prototypes. However, one important thing we need to ensure before we start to code our design, is how to make our
+            website responsive. A responsive website is one that automatically changes size in conjunction to the screen size changing.   
+         </p>
+         <p>
+            This will be accomplished in many ways. Firstly, we will use flexbox primarily because of its ability to be dynamic and that will be 
+            useful as we play around with different screen sizes.
+         </p>
+         <p>
+            Another thing to be aware of is that our text may change size as we change screen sizes. We can adjust this by using 'media query' 
+            to tell the website to change font and text sizes dependent on what the desired screen size is.
+         </p>
+
+    </div> 
+
+
+
+
+<h4>Redesigned Page:</h4>
+    <div id="rpHeader">
+        <header>Our final step in our redesign process is actually building our new page. This was done using HTML and CSS. Click on the <b>button below</b>
+            to check it out! Make sure to check it on different screen sizes to see how the page is responsive!
+        </header>
+        <p>Note: Buttons and navigational components are not functional.</p>
+    </div>
+    <div id="button1">
+        <button class="button button1" data-href="https://hilariousalpaca112.github.io/redesigned-page/" onclick="window.open(this.getAttribute('data-href')); return false;">
+            Click Me!</button>
+    </div>
+
+<h4>References:</h4>
+
+<div id="refHeader">
+    <header>
+        Here is a list of all of the images and sources I used when desigining and coding my responsive site as well as some elements on this site! Click on
+        each list item below to see my sources!
+    </header>
+</div>
+ <div class="list-container">
+    <ol>
+        <li class="list-item"><a data-href="https://www.w3schools.com/howto/howto_css_flip_card.asp" onclick="window.open(this.getAttribute('data-href')); return false;">
+            Flip Card Effect
+        </a></li>
+        <li class="list-item"><a data-href="https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/" onclick="window.open(this.getAttribute('data-href')); return false;">
+            Responsive Navigation Bar
+        </a></li>
+        <li class="list-item"><a data-href="https://stackoverflow.com/questions/13369112/navigation-bar-entire-width-spaced-items-evenly" onclick="window.open(this.getAttribute('data-href')); return false;">
+            Responsive Navigation Bar - Evenly Spaced Width
+        </a></li>
+        <li class="list-item"><a data-href="https://www.w3schools.com/howto/howto_js_slideshow.asp" onclick="window.open(this.getAttribute('data-href')); return false;">
+            Slideshow
+        </a></li>
+    </ol>
+</div>
+</div>
+
+  </body>
+
+</html>
+

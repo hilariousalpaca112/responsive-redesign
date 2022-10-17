@@ -1,0 +1,267 @@
+* {
+    font-family: Arvo;
+    background-color: white;
+    color: black
+  }
+  
+  #header {
+      text-align: center;
+      border: 2px solid #C8A2C8;
+      border-radius: 25px;
+      box-sizing: 20px;     
+  }
+  h2{
+      text-align: center;
+      margin-top: 30px;
+      font-size: 28px;
+  }
+  img {
+    /*margin-top: 25px;*/
+    object-fit: contain;
+    width: 35%;
+    height: 35%;
+  }
+
+  .screenshot-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+  }
+  .screenshot-item {
+    padding-bottom: 2em;
+
+  }
+  
+#contents {
+    display: flex;
+    margin-left: 13%;
+    margin-right: 13%;
+    flex-wrap: wrap;    
+}
+#caption {
+display: flex;
+justify-content: center;
+
+}
+
+#button1{
+  text-align: center;
+  padding-top: 1%;
+}
+.button {
+  border-radius: 25px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #C8A2C8;
+  
+}
+
+.button1:hover {
+  background-color: #C8A2C8;
+  color: white;
+}
+.button1:active {
+  background-color: #C8A2C8;
+  transform: translateY(4px);
+}
+
+
+h3{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 28px;
+
+}
+#keyProblems{
+    margin-top: 30px;
+    margin-left: 13%;
+    margin-right: 13%;
+    text-align: center;
+
+}
+ol{
+  padding-inline-start: 20px;
+}
+#flipCont{
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+justify-content: space-evenly;
+margin: 0 auto;
+max-width: 1200px;
+}
+.flip-card {
+background-color: transparent;
+border: 1px solid #C8A2C8;
+border-radius: 25px;
+height: 300px;
+padding: 20px;
+width: 200px;
+}
+
+.flip-card-inner {
+background-color: transparent;
+display: flex;
+height: 100%;
+position: relative;
+text-align: center;
+transition: transform 0.8s;
+transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+background-color: transparent;
+-webkit-backface-visibility: hidden; 
+backface-visibility: hidden;
+}
+
+.flip-card-front {
+background-color: transparent;
+color: black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+
+.flip-card-back {
+background-color: transparent;
+display: flex;
+width: 100%;
+height: 100%;
+position: absolute;
+transform: rotateY(180deg);
+overflow: auto;
+align-items: center; 
+}
+
+
+#p2 {
+  text-align: center;  
+  margin-left: 13%;
+  margin-right: 13%; 
+}
+
+.wf-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.wf-item {
+  width: 25%;
+  height: 25%;
+  object-fit:contain;
+
+}
+
+.wf-item:hover {
+  transform: scale(1.5); 
+}
+
+.style-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.style-item {
+  width: 25%;
+  height: 25%;
+  object-fit:contain;
+
+}
+
+.hp-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.hp-item {
+  width: 25%;
+  height: 25%;
+  object-fit:contain;
+
+}
+.hp-item:hover {
+  transform: scale(1.5); 
+}
+#introInt{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+
+.interviewCont{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+
+h4{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 28px;
+
+}
+h5{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 28px;
+
+}
+#rpHeader{
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 13%;
+    margin-right: 13%;
+
+}
+.rp-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  #refHeader{
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-bottom: 2%;
+
+}
+.list-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid #C8A2C8;
+  border-radius: 25px;
+  
+}
+.list-item{
+  text-decoration: underline;
+}
